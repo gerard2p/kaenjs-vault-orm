@@ -1,0 +1,38 @@
+{
+  "name": "@kaenjs/vault-orm",
+  "version": "0.0.0",
+  "description": "VaultORM Middleware for KaenJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "VaultORM",
+    "Middleware",
+    "KaenJS",
+    "Framework",
+    "kaen",
+    "backend",
+    "webserver",
+    "nodejs"
+  ],
+  "author": "Gerardo Pérez Pérez <gerard2perez@outlook.com>",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "@gerard2p/vault-orm": "file:../../@gerard2p/vault-orm"
+  },
+  "devDependencies": {
+    "@kaenjs/core": "file:../core",
+    "@types/node": "^10.0.0",
+    "typescript": "^3.4.3"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "files": [
+    "**/*.js",
+    "package.json",
+    "**/*.d.ts"
+  ],
+  "readme": "README.md"
+}
