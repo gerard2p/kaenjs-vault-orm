@@ -6,6 +6,7 @@
     "**/*.js": true,
     "**/*.map": true,
     "*.tgz": true,
-    "package-lock.json": true
+    "package-lock.json": true,
+    "command": true
   }
 }

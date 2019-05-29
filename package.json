@@ -4,7 +4,8 @@
   "description": "VaultORM Middleware for KaenJS",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "postinstall": "node command/install"
   },
   "keywords": [
     "VaultORM",
@@ -24,7 +25,8 @@
   "devDependencies": {
     "@kaenjs/core": "file:../core",
     "@types/node": "^10.0.0",
-    "typescript": "^3.4.3"
+    "typescript": "^3.4.3",
+    "@gerard2p/mce-types": "file:../../@gerard2p/mce-types"
   },
   "engines": {
     "node": ">=10.0.0"
@@ -32,7 +34,9 @@
   "files": [
     "**/*.js",
     "package.json",
-    "**/*.d.ts"
+    "**/*.d.ts",
+    "!command/*.d.ts",
+    "!command/*.map"
   ],
   "readme": "README.md"
 }
