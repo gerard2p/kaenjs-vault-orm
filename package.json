@@ -25,8 +25,7 @@
   "devDependencies": {
     "@kaenjs/core": "file:../core",
     "@types/node": "^10.0.0",
-    "typescript": "^3.4.3",
-    "@gerard2p/mce-types": "file:../../@gerard2p/mce-types"
+    "typescript": "^3.4.3"
   },
   "engines": {
     "node": ">=10.0.0"
