@@ -81,7 +81,7 @@ export async function action(context:string, model:string, opt:mce.Parsed<typeof
                     decorator = `@BelongsTo(o=>${model})`;
                     break;
                 case 'hasone':
-                decorator = `@GasOne(o=>${model})`;
+                decorator = `@HasOne(o=>${model})`;
                     break;
                 default:
                     decorator = '@Property';
